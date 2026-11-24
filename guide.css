@@ -73,6 +73,12 @@ article ol { padding-left: 1.4rem; }
 article li + li { margin-top: .5rem; }
 .example { background: #f0f5f0; padding: .65rem .95rem; border-radius: .45rem; font-size: .94rem; }
 .example strong { color: #215b4c; margin-right: .5rem; }
+.sample-guide {
+  margin-top: 1rem; padding: 1rem; border: 1px solid #d8e2dc; border-radius: .7rem;
+}
+.sample-guide h4 { margin: 0; color: #215b4c; font-size: 1rem; }
+.sample-guide ol { margin: .5rem 0 1rem; }
+.sample-guide h4 + p { margin-top: .4rem; }
 .example-download {
   display: flex; align-items: center; gap: .5rem; min-height: 2.75rem;
   padding: .65rem .95rem; border: 1px solid #b8d2c3; border-radius: .45rem;
