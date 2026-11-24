@@ -73,6 +73,12 @@ article ol { padding-left: 1.4rem; }
 article li + li { margin-top: .5rem; }
 .example { background: #f0f5f0; padding: .65rem .95rem; border-radius: .45rem; font-size: .94rem; }
 .example strong { color: #215b4c; margin-right: .5rem; }
+.example-download {
+  display: flex; align-items: center; gap: .5rem; min-height: 2.75rem;
+  padding: .65rem .95rem; border: 1px solid #b8d2c3; border-radius: .45rem;
+  background: #edf5ef; color: #174e46; font-weight: 650;
+}
+.example-download:hover { background: #deede2; }
 code { padding: .08rem .34rem; border-radius: .25rem; background: #f2f2eb; white-space: nowrap; }
 dl { margin-bottom: 0; }
 dt { margin-top: 1rem; font-weight: 700; }
