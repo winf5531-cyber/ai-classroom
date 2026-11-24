@@ -74,17 +74,31 @@ article li + li { margin-top: .5rem; }
 .example { background: #f0f5f0; padding: .65rem .95rem; border-radius: .45rem; font-size: .94rem; }
 .example strong { color: #215b4c; margin-right: .5rem; }
 .sample-guide {
-  margin-top: 1rem; padding: 1rem; border: 1px solid #d8e2dc; border-radius: .7rem;
+  margin-top: 1.35rem;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  border: 1px solid #b5d2c2;
+  border-inline-start: .3rem solid #3a795b;
+  border-radius: .75rem;
+  background: #edf6ef;
 }
-.sample-guide h4 { margin: 0; color: #215b4c; font-size: 1rem; }
-.sample-guide ol { margin: .5rem 0 1rem; }
-.sample-guide h4 + p { margin-top: .4rem; }
+.sample-save {
+  margin-top: .85rem;
+  border-color: #c0d1df;
+  border-inline-start-color: #537996;
+  background: #eff4f8;
+}
+.sample-guide h4 { margin: 0; color: #214e38; font-size: 1.05rem; line-height: 1.45; }
+.sample-save h4 { color: #304e65; }
+.sample-guide ol { margin: .75rem 0 0; }
+.sample-guide li::marker { color: #346749; font-weight: 700; }
+.sample-save p { margin: .6rem 0 .9rem; }
+.sample-save code { background: #fff; }
 .example-download {
-  display: flex; align-items: center; gap: .5rem; min-height: 2.75rem;
-  padding: .65rem .95rem; border: 1px solid #b8d2c3; border-radius: .45rem;
-  background: #edf5ef; color: #174e46; font-weight: 650;
+  display: inline-flex; align-items: center; gap: .5rem; max-width: 100%; min-height: 2.75rem;
+  padding: .55rem .9rem; border-radius: .45rem; background: #205a4b;
+  color: #fff; font-weight: 650; text-decoration: none;
 }
-.example-download:hover { background: #deede2; }
+.example-download:hover { background: #174638; text-decoration: underline; }
 code { padding: .08rem .34rem; border-radius: .25rem; background: #f2f2eb; white-space: nowrap; }
 dl { margin-bottom: 0; }
 dt { margin-top: 1rem; font-weight: 700; }
