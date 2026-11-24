@@ -1,1 +1,8 @@
 html{font:100%/1.75 system-ui,"Malgun Gothic",sans-serif;color:#213833;background:#f7f9f6}body{max-width:50rem;margin:0 auto;padding:2.5rem 1.25rem 5rem}h1,h2{line-height:1.4;word-break:keep-all}h1{font-size:2rem}h2{font-size:1.3rem;margin:2rem 0 .5rem}li{margin-bottom:.5rem}a{color:#175b4d;text-underline-offset:.2em}code{background:#e2ece7;padding:.15rem .35rem}footer{margin-top:2.5rem;border-top:1px solid #c4d5ce;padding-top:1rem}
+dl {
+  display: grid;
+  grid-template-columns: fit-content(45%) minmax(0, 1fr);
+  gap: .15rem .85rem;
+}
+dt { font-weight: 600; }
+dd { margin: 0; overflow-wrap: anywhere; }
