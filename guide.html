@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>AI 학습실 사용 설명서</title>
+  <title>머신러닝 분류 실습 수업 안내 | AI 학습실 사용 설명서</title>
+  <meta name="description" content="크롬북으로 하는 지도학습 수업을 준비하세요. 텍스트, 이미지, 숫자, 소리, 자세 분류 예시와 학습 데이터 저장 방법을 안내합니다.">
+  <link rel="canonical" href="https://xn--ai-s05j7fz88f.kr/guide.html">
   <link rel="icon" href="images/classroom-mark.svg">
   <link rel="stylesheet" href="guide.css?v=sample-cards">
 </head>
@@ -39,7 +41,8 @@
       <div class="chapters">
         <section id="start">
           <h2>처음 시작하기</h2>
-          <p>학생은 크롬북에서 로그인 없이 실습할 수 있습니다. 수업 전에는 학생 기기에서 사용할 예제를 한 번 열어 보세요. 사진이나 자세를 촬영하려면 카메라가 필요하고, 소리를 녹음하려면 마이크가 필요합니다.</p>
+          <p>학생은 크롬북에서 로그인 없이 실습할 수 있습니다. 지도학습 수업에서는 학생이 예시에 그룹 이름을 붙여 AI를 학습시키고, 새 예시를 어느 그룹으로 분류하는지 확인합니다.</p>
+          <p>티처블 머신으로 사진, 소리, 자세를 분류해 봤다면 이번에는 문장이나 숫자로 실습해 보세요. 사진이나 자세를 촬영하려면 카메라가 필요하고, 소리를 녹음하려면 마이크가 필요합니다.</p>
           <ol class="steps">
             <li><strong>그룹별로 예시 모으기</strong>구분하고 싶은 그룹을 두 개 이상 만드세요. 그룹마다 서로 다른 예시를 세 개 이상 넣으세요.</li>
             <li><strong>AI 모델 학습하기</strong>‘AI 학습’ 영역에서 학습 버튼을 누르고 완료될 때까지 기다리세요.</li>
@@ -50,9 +53,10 @@
         <section id="lessons">
           <h2>실습별 안내</h2>
           <article id="text">
-            <h3>텍스트 분류</h3>
+            <h3>텍스트 분류 실습 — 긍정과 부정 문장 구분하기</h3>
             <p>‘긍정’과 ‘부정’ 그룹을 만드세요. <strong>추가</strong>를 누르고 “친구와 함께 놀아서 즐거웠다.”처럼 한 줄에 한 문장씩 입력하세요. <strong>문장 추가</strong>를 누르면 해당 그룹에 담깁니다.</p>
             <p>학습한 뒤 새 문장을 입력하고 <strong>분류하기</strong>를 누르세요. “환경을 보호한다.”와 “환경을 보호하지 않는다.”처럼 겹치는 표현이 많은 문장은 어떤 결과가 나오는지 비교해 보세요.</p>
+            <p><a href="text-classification.html">감정 분석 수업에서 쓸 테스트 문장과 활동 질문 보기</a></p>
             <section class="sample-guide" aria-labelledby="text-example-open">
               <h4 id="text-example-open">학습실에서 ‘한국어 감정’ 예제 열기</h4>
               <ol>
@@ -68,7 +72,7 @@
             </section>
           </article>
           <article id="image">
-            <h3>이미지 분류</h3>
+            <h3>이미지 분류 실습 — 색과 도형을 구분하는 AI 만들기</h3>
             <p>그룹마다 서로 다른 사진을 세 장 이상 모으세요. 사진 파일을 올리거나 카메라로 촬영할 수 있습니다. 학습이 끝나면 새 사진 한 장으로 테스트하세요.</p>
             <p>‘색과 도형’ 예제에는 빨간 원, 파란 네모, 초록 세모가 들어 있습니다. 예제를 학습시킨 뒤 직접 그린 도형을 올려 어떤 그룹으로 분류하는지 살펴보세요.</p>
             <section class="sample-guide" aria-labelledby="image-example-open">
@@ -86,17 +90,18 @@
             </section>
           </article>
           <article id="number">
-            <h3>숫자 분류</h3>
+            <h3>숫자 데이터 분류 실습 — 가로와 세로 길이로 도형 구분하기</h3>
             <p>가로와 세로 길이로 ‘가로가 긴 도형’과 ‘세로가 긴 도형’을 구분해 보세요. 가로가 긴 그룹에는 <code>8, 2</code>, 세로가 긴 그룹에는 <code>2, 8</code>처럼 입력합니다.</p>
             <p><strong>추가</strong>를 누르고 한 줄에 한 묶음씩 입력하세요. 모든 예시에서 숫자의 개수와 순서를 맞추세요. 학습한 뒤 새 묶음 <code>9, 3</code>을 입력하고 <strong>분류하기</strong>를 누르세요.</p>
           </article>
           <article id="audio">
-            <h3>소리 분류</h3>
+            <h3>소리 분류 실습 — 박수와 책상 두드리는 소리 구분하기</h3>
             <p>‘박수’와 ‘책상 두드리기’ 그룹을 만드세요. 각 그룹에서 <strong>녹음</strong>을 누르고 해당 소리를 내세요. 예시가 충분히 모이면 녹음을 중지하세요.</p>
             <p>학습한 뒤 ‘결과 테스트’에서 <strong>녹음</strong>을 눌러 새 소리를 들려주세요. 소리를 내는 사람이나 마이크와의 거리를 바꿔 결과를 비교해 보세요.</p>
           </article>
           <article id="pose">
-            <h3>자세 분류</h3>
+            <h3>자세 분류 실습 — 웹캠으로 손을 든 자세 구분하기</h3>
+            <p>동작 인식 수업에서는 한 손을 들었을 때와 두 손을 들었을 때의 관절 위치를 비교해 보세요. 학생이 직접 자세를 취하고 새 각도에서도 모델이 구분하는지 확인할 수 있습니다.</p>
             <ol>
               <li>‘한 손 들기’와 ‘두 손 들기’ 그룹을 만드세요. 한 그룹에서 <strong>카메라 열기</strong>를 누르고 한 사람의 양쪽 어깨와 팔이 보이도록 서세요.</li>
               <li>팔 위에 점과 선이 보이면 <strong>이 자세 촬영</strong>을 누르세요. 한 번 누를 때마다 그 순간의 관절 좌표가 예시 한 개로 저장됩니다. 위치나 각도를 조금씩 바꿔 반복한 뒤 <strong>카메라 닫기</strong>를 누르세요.</li>

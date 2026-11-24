@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>텍스트 분류 실습 | 긍정과 부정 문장으로 감정 분석하기 | AI 학습실</title>
+  <meta name="description" content="학생이 예문을 긍정과 부정으로 나누고 감정 분류 모델을 학습시키는 수업입니다. 실습용 문장 파일과 새로운 문장으로 예측을 확인하는 방법을 제공합니다.">
+  <link rel="canonical" href="https://xn--ai-s05j7fz88f.kr/text-classification.html">
+  <link rel="icon" href="images/classroom-mark.svg">
+  <link rel="stylesheet" href="guide.css?v=lesson">
+</head>
+<body id="top">
+  <header class="topbar"><div class="wrap bar-inner">
+    <span class="brand"><img src="images/classroom-mark.svg" alt="" width="32" height="32">AI 학습실</span>
+    <a href="./">학습실 열기 →</a>
+  </div></header>
+  <main class="wrap">
+    <header class="intro">
+      <h1>긍정과 부정 문장으로 감정 분석하기</h1>
+      <p>같은 ‘시험’이라는 말이 들어가도 기분은 다를 수 있어요. 텍스트 분류 실습으로 AI가 두 감정을 어떻게 구분하는지 알아보세요.</p>
+      <a class="example-download" href="datasets/한국어-감정.json" download>한국어 감정 예제 내려받기 (JSON)</a>
+    </header>
+    <div class="chapters">
+      <section>
+        <h2>예문 열고 모델 학습하기</h2>
+        <ol class="steps">
+          <li><strong>예제 열기</strong><a href="./" target="_blank" rel="noopener">AI 학습실을 새 탭에서 열고</a> 파일 메뉴의 ‘예제 데이터’에서 ‘한국어 감정’을 선택하세요. 내려받은 파일을 쓸 때는 ‘학습 데이터 불러오기’를 선택하세요.</li>
+          <li><strong>그룹 살펴보기</strong>‘긍정’과 ‘부정’에 문장이 다섯 개씩 있습니다. ‘시험 결과가 만족스럽다.’와 ‘시험 결과가 실망스럽다.’에서 감정을 짐작하게 하는 말을 찾아보세요.</li>
+          <li><strong>AI 모델 학습하기</strong>가운데 학습 버튼을 누르세요. 이제 모델에 처음 보는 문장을 넣어 볼 차례입니다.</li>
+        </ol>
+      </section>
+      <section>
+        <h2>새 문장으로 예측 확인하기</h2>
+        <p>‘오늘 경기가 만족스럽다.’와 ‘오늘 경기가 실망스럽다.’를 어느 그룹에 넣을지 먼저 적으세요. 그런 다음 ‘결과 테스트’에 한 문장씩 입력하고 ‘분류하기’를 누르세요. 예상과 실제로 높은 점수를 받은 그룹이 같았나요?</p>
+        <p>이번에는 ‘결과가 좋을 줄 알았는데 실망스럽다.’처럼 두 감정의 단서가 함께 있는 문장을 써 보세요. 친구와 판단이 다르다면 어떤 말에 주목했는지 이야기해 보세요.</p>
+      </section>
+      <section>
+        <h2>학습 데이터를 보충하면 어떻게 될까요?</h2>
+        <p>‘기뻤다’, ‘아쉬웠다’가 들어간 예문을 각 그룹에 추가하고 다시 학습시키세요. 테스트에 쓸 문장은 따로 남겨 두세요. 같은 테스트 문장으로 전후의 예측을 비교하면 어떤 예시가 도움이 됐는지 살펴볼 수 있습니다.</p>
+      </section>
+    </div>
+    <footer><a href="guide.html#text">텍스트 분류 사용 방법</a><a href="guide.html#lessons">다른 분류 실습 보기</a></footer>
+  </main>
+</body>
+</html>

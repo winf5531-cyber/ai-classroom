@@ -99,6 +99,8 @@ article li + li { margin-top: .5rem; }
   color: #fff; font-weight: 650; text-decoration: none;
 }
 .example-download:hover { background: #174638; text-decoration: underline; }
+.intro .example-download { background: #e1eee5; color: #194e3f; }
+.intro .example-download:hover { background: #fff; }
 code { padding: .08rem .34rem; border-radius: .25rem; background: #f2f2eb; white-space: nowrap; }
 dl { margin-bottom: 0; }
 dt { margin-top: 1rem; font-weight: 700; }

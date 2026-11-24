@@ -6,13 +6,34 @@
     <link rel="icon" type="image/svg+xml" href="images/classroom-mark.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#164f47">
-    <title>AI 학습실</title>
+    <title>AI 학습실 | 로그인 없이 쓰는 머신러닝 실습 사이트</title>
+    <meta name="description" content="크롬북에서 코딩 없이 AI를 학습시켜 보세요. 문장, 사진, 숫자, 소리, 자세를 분류하고 새 데이터로 예측 결과를 확인하는 학생용 머신러닝 실습 사이트입니다.">
+    <link rel="canonical" href="https://xn--ai-s05j7fz88f.kr/">
     <style>
       html, body { min-height: 100%; margin: 0; background: #f7f9f6; }
       body { font-family: system-ui, "Malgun Gothic", sans-serif; color: #243c32; }
       lml-app { display: block; }
+      .home-intro { max-width: 78rem; margin: 0 auto 1.5rem; color: #1d3533; }
+      .home-intro h1 { margin: 0; font-size: clamp(1.8rem, 3.6vw, 2.9rem); font-weight: 750; line-height: 1.24; letter-spacing: -.045em; }
+      .home-intro p { margin: .75rem 0; color: #506460; line-height: 1.65; }
+      .home-intro nav { display: flex; flex-wrap: wrap; gap: .35rem 1.4rem; }
+      .home-intro a { color: #175b4d; text-decoration: underline; text-underline-offset: .2em; }
+      lml-app:not(:defined) { padding: 2rem max(1.25rem, 4vw); }
     </style>
-    <script type="module" crossorigin src="./assets/index-DYu_wTfh.js"></script>
+    <script type="module" crossorigin src="./assets/index-DfP-GMQ8.js"></script>
+    <meta name="google-site-verification" content="pIS2Qbg-Ww6OFKiyYR4LNjD204rDV6uSbASALe9HTW8">
   </head>
-  <body><lml-app></lml-app></body>
+  <body>
+    <lml-app>
+      <header class="home-intro" slot="home-intro">
+        <h1>나만의 데이터로 머신러닝 실습하기</h1>
+        <p>크롬북에서 로그인이나 코딩 없이 AI 모델을 만들어 보세요. 문장, 사진, 숫자, 소리, 자세 중 하나를 골라 직접 모은 예시로 학습시킬 수 있습니다.</p>
+        <nav aria-label="수업 안내">
+          <a href="guide.html">다섯 가지 분류 실습 안내</a>
+          <a href="text-classification.html">긍정과 부정 문장으로 감정 분석하기</a>
+        </nav>
+        <noscript><p>학습과 예측을 시작하려면 브라우저에서 자바스크립트를 켜세요.</p></noscript>
+      </header>
+    </lml-app>
+  </body>
 </html>
